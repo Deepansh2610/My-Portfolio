@@ -1,0 +1,56 @@
+.navigation-menu{
+    background-image: linear-gradient(white, black) ;
+    padding: 50px 50px;
+    margin-top: 20px;
+}
+/*Nav-Bar*/
+.nav-bar a{
+    text-decoration: none;
+    color: white;   
+    font-family: Sequel,sans-serif;
+}
+.nav-bar li:hover{
+    background-color: gray;
+}
+
+.nav-bar li{
+    list-style-type: none;
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    padding: 40px;
+    background-color: black;
+    border-radius: 50px;
+}
+
+.box-1, .box-2{
+    padding: 30px 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-family: fantasy;
+}
+.box-1{
+    margin-top: 100px;
+    margin-bottom: 20px
+}
+
+.box-1 a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-radius: 20px;
+}
+.box-2 a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-radius: 20px;
+}
+.box-1 h2{
+    font-size: 60px;
+}
+.box-2 h2{
+    font-size: 60px;
+}

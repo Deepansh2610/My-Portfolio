@@ -1,0 +1,133 @@
+.navigation-menu{
+    background-image: linear-gradient(white, black) ;
+    padding: 50px 50px;
+    margin-top: 20px;
+}
+/*Nav-Bar*/
+.nav-bar a{
+    text-decoration: none;
+    color: white;   
+    font-family: Sequel,sans-serif;
+}
+.nav-bar li:hover{
+    background-color: gray;
+}
+
+.nav-bar li{
+    list-style-type: none;
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    padding: 40px;
+    background-color: black;
+    border-radius: 50px;
+}
+.nav-bar ul{
+    text-decoration: none;
+    background-color: red;
+}
+h1{
+    font-family: Sequel,sans-serif;
+    font-weight: 1000;
+    font-size: 50px;
+    color:black;
+    letter-spacing: -4px;
+}
+.line1{
+    line-height: 1;
+}
+.line2{
+    line-height: 0;
+}
+
+/*Know Me Banner*/
+.know-banner img{
+    display: block;
+
+}
+.know-banner{
+    position: relative;
+    margin-top: 200px;
+    margin-left: 200px;
+    overflow: hidden;
+}
+.know-description{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 595px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 15px 25px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transform: translateY(100%);
+}
+.know-banner:hover .know-description{
+    transform: translateY(0);
+}
+.banner{
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+
+/*Project-Banner*/
+.project-banner img{
+    display: block;
+}
+.project-banner{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 200px;
+    overflow: hidden;
+}
+.project-description ul{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 598px;
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 50px 50px;
+    transition-property:all;
+    transition-duration: 0.5s;
+    transform: translateY(130%);
+}
+.project-description a{
+    color: white;
+    text-decoration: none;
+    
+}
+.project-banner:hover .project-description ul{
+    transform:translateY(0%);
+}
+
+/*Certifictae-Banner*/
+.certificate-banner img{
+    display: block;
+}
+.certificate-banner{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 200px;
+    overflow: hidden;
+}
+.certificate-description ul{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 598px;
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 15px 25px;
+    transition-property:all;
+    transition-duration: 0.5s;
+    transform: translateY(130%);
+}
+.certificate-description a{
+    color: white;
+    text-decoration: none;
+    
+}
+.certificate-banner:hover .certificate-description ul{
+    transform:translateY(0);
+}
